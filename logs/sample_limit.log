@@ -1,0 +1,3 @@
+2026-02-12 10:17:20 | INFO | bot.logging_config | (logger initialized)
+2026-02-12 10:17:21 | INFO | bot.client | REQUEST POST /fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 85000.0, 'timeInForce': 'GTC', 'timestamp': 1739335641000, 'recvWindow': 5000}
+2026-02-12 10:17:21 | INFO | bot.client | RESPONSE POST /fapi/v1/order status=200 body={'orderId': 1234567899, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-def456', 'price': '85000', 'avgPrice': '0.0', 'origQty': '0.001', 'executedQty': '0.0', 'type': 'LIMIT', 'side': 'SELL', 'timeInForce': 'GTC'}
